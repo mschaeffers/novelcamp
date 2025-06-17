@@ -12,7 +12,7 @@ class DatabaseConnection
             self::$instance = new \PDO(
                 'mysql:host=localhost:3306;dbname=novelcamp;charset=utf8',
                 'sa',
-                'Europa09/lqs'
+                '***'
             );
             self::$instance->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         }
