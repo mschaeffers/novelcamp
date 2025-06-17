@@ -15,12 +15,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./  # adjust as needed
+          local-dir: ./app  # adjust as needed
           server-dir: /
-          exclude: |          
-            .git*
-            **/.git/*
-            **/.github/**
-            **/.vscode/**
-            .github/**            
-            .vscode/**
+         
