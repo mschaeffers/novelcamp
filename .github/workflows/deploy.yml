@@ -18,6 +18,6 @@ jobs:
           local-dir: ./  # adjust as needed
           server-dir: /
           exclude: |
-            **/.git*
+            **/.git/*
             **/.github/**
             **/.vscode/**
