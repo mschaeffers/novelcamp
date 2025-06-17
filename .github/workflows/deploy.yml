@@ -17,3 +17,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./  # adjust as needed
           server-dir: /
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/.vscode/**
