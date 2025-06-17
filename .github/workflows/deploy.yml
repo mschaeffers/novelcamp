@@ -17,4 +17,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./app/  # adjust as needed
           server-dir: /
+          protocol: ftp
+          port: 21
+          passive: true
          
