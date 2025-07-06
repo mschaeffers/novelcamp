@@ -9,6 +9,7 @@ function library_autoloader($class) {
         require $file;
         return;
     } 
+    //
 
     //treat last namespace as file name.
     $class_path = explode('\\', $class, -1);
